@@ -1,1 +1,1 @@
-# stienka
+# stienka.sk
