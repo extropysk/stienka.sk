@@ -1,12 +1,12 @@
 <script setup>
 defineProps({
-  text: String
+  title: String
 })
 </script>
 
 <template>
   <p class="mt-4 text-lg text-gray-300">
-    {{ text }}
+    {{ title }}
   </p>
 </template>
 

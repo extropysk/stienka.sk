@@ -30,7 +30,7 @@ export default {
     <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
       <div class="pr-12">
         <Header primary="Stienka" secondary="caffee" />
-        <Announcement v-for="(a, index) in announcements" :key="index" :text="a.text" />
+        <Announcement v-for="a in announcements" :key="a._id" :title="a.title" />
       </div>
     </div>
   </div>
