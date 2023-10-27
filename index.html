@@ -4,24 +4,37 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="favicons/favicon.ico" />
+
     <link
       rel="apple-touch-icon"
-      sizes="76x76"
-      href="img/apple-icon.png"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <title>Stienka</title>
     <script type="module" crossorigin src="/assets/index.9e6cdef9.js"></script>
-    <link rel="stylesheet" href="/assets/index.dfb58bc8.css">
+    <link rel="stylesheet" href="/assets/index.b90fd095.css">
   </head>
   <body class="text-gray-800 antialiased">
     <!-- Navbar -->
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -52,7 +65,7 @@
                 href="mailto:lezeckastienka@gmail.com"
                 target="_blank"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fas fa-envelope text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fas fa-envelope text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Email</span></a
               >
@@ -63,7 +76,7 @@
                 href="https://www.facebook.com/people/Lezecka-Stienka/100010698611583/"
                 target="_blank"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Facebook</span></a
               >
@@ -75,11 +88,11 @@
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 95vh;"
+        style="min-height: 95vh"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="background-image: url('img/bg.jpg');"
+          style="background-image: url('img/bg.jpg')"
         >
           <span
             id="blackOverlay"
@@ -89,12 +102,10 @@
         <div class="container relative mx-auto" id="app"></div>
         <div
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
+          style="height: 70px"
         >
-        <svg>
-            <polygon
-              points="2560 0 2560 100 0 100"
-            ></polygon>
+          <svg>
+            <polygon points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
       </div>
@@ -111,15 +122,21 @@
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
-                <h3 class="text-4xl uppercase font-bold">Stienka <span class="text-primary-500">caffee</span></h3>
+                <h3 class="text-4xl uppercase font-bold">
+                  Stienka <span class="text-primary-500">caffee</span>
+                </h3>
                 <p class="mt-4 text-lg leading-relaxed">
-                  Stienka má charakter bouldrovej stienky s rôznymi výškami a s alternatívou krátkeho lezenia s lanom.
+                  Stienka má charakter bouldrovej stienky s rôznymi výškami a s
+                  alternatívou krátkeho lezenia s lanom.
                 </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
                       <div>
-                        <span class="font-semibold inline-block py-3 mr-3 text-primary-500"><i class="fas fa-dumbbell fa-2x"></i></span>
+                        <span
+                          class="font-semibold inline-block py-3 mr-3 text-primary-500"
+                          ><i class="fas fa-dumbbell fa-2x"></i
+                        ></span>
                       </div>
                       <div>
                         <h4 class="text-xl">možnosť požičania vybavenia</h4>
@@ -129,7 +146,10 @@
                   <li class="py-2">
                     <div class="flex items-center">
                       <div>
-                        <span class="font-semibold inline-block py-3 mr-3 text-primary-500"><i class="fas fa-users fa-2x"></i></span>
+                        <span
+                          class="font-semibold inline-block py-3 mr-3 text-primary-500"
+                          ><i class="fas fa-users fa-2x"></i
+                        ></span>
                       </div>
                       <div>
                         <h4 class="text-xl">priestor pre teambuilding</h4>
@@ -146,9 +166,14 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-8/12 px-4">
-              <h2 class="text-4xl font-semibold uppercase">Parametre <span class="text-primary-500">steny</span></h2>
+              <h2 class="text-4xl font-semibold uppercase">
+                Parametre <span class="text-primary-500">steny</span>
+              </h2>
               <p class="text-lg leading-relaxed m-4">
-                Na lezeckej ploche celkovej výmere 180 m² je osadených viac ako 1100 chytov a 60 istiacich bodov. V rámci previsnutej steny je vytvorených viac ako 30 logických, farebne odlíšenými cestami s miestami s III až VIII stupňom obtiažnosti UIAA.
+                Na lezeckej ploche celkovej výmere 180 m² je osadených viac ako
+                1100 chytov a 60 istiacich bodov. V rámci previsnutej steny je
+                vytvorených viac ako 30 logických, farebne odlíšenými cestami s
+                miestami s III až VIII stupňom obtiažnosti UIAA.
               </p>
             </div>
           </div>
@@ -159,9 +184,9 @@
                   alt="detska stienka"
                   src="img/small1.jpg"
                   class="shadow-lg rounded max-w-full mx-auto opacity-80"
-                  style="max-width: 180px;"
+                  style="max-width: 180px"
                 />
-                <div class="pt-6 text-center">
+                <div class="pt-4 text-center">
                   <h5 class="text-xl font-bold">Detská stienka</h5>
                   <p class="mt-1 text-sm text-gray-500 font-semibold">
                     plocha o výmere 16m² je osadená chytmi s detskými motívmi
@@ -175,12 +200,13 @@
                   alt="bouldrova stienka"
                   src="img/small3.jpg"
                   class="shadow-lg rounded max-w-full mx-auto opacity-80"
-                  style="max-width: 180px;"
+                  style="max-width: 180px"
                 />
-                <div class="pt-6 text-center">
+                <div class="pt-8 text-center">
                   <h5 class="text-xl font-bold">Kolmá bouldrová stienka</h5>
                   <p class="mt-1 text-sm text-gray-500 font-semibold">
-                    plocha o výmere 18 m² a výškou 2,5m je vhodná hlavne pre začiatočníkov a deti
+                    plocha o výmere 18 m² a výškou 2,5m je vhodná hlavne pre
+                    začiatočníkov a deti
                   </p>
                 </div>
               </div>
@@ -191,12 +217,14 @@
                   alt="previsnuta stena"
                   src="img/small2.jpg"
                   class="shadow-lg rounded max-w-full mx-auto opacity-80"
-                  style="max-width: 180px;"
+                  style="max-width: 180px"
                 />
-                <div class="pt-6 text-center">
+                <div class="pt-8 text-center">
                   <h5 class="text-xl font-bold">Previsnutá stena</h5>
                   <p class="mt-1 text-sm text-gray-500 font-semibold">
-                    kombinovaná stena (bouldrovka a lezecká stena) s výškou od 5,5 m do 7m a plochou 110m² je vhodná na lezenie s postupovým isteným, top rop alebo bouldering
+                    kombinovaná stena (bouldrovka a lezecká stena) s výškou od
+                    5,5 m do 7m a plochou 110m² je vhodná na lezenie s
+                    postupovým isteným, top rop alebo bouldering
                   </p>
                 </div>
               </div>
@@ -207,26 +235,36 @@
       <section class="pb-20 relative block bg-gray-900 text-white">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
-        >
-        <svg>
-            <polygon
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div class="container mx-auto px-4 pt-4 lg:pt-24 lg:pb-64">
+          style="height: 80px"
+        ></div>
+        <div class="container mx-auto px-4 pt-4 lg:pt-24 lg:pb-12">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white uppercase">Pomohli <span class="text-primary-500">nám</span></h2>
+              <h2 class="text-4xl font-semibold text-white uppercase">
+                Pomohli <span class="text-primary-500">nám</span>
+              </h2>
               <!-- <p class="text-lg leading-relaxed mt-4 mb-4">
                 Contact us to ask any questions, get a membership or just talk to our trainers.
               </p> -->
-              <img
-                class="mt-8"
-                alt="partneri"
-                src="img/sponsor.png"
-              />
+
+              <div class="flex flex-wrap mt-8">
+                <div class="w-full md:w-6/12 lg:mb-0 px-4">
+                  <img
+                    alt="detska stienka"
+                    src="img/sponsor-tatry.png"
+                    class="shadow-lg rounded max-w-full mx-auto opacity-80 p-8"
+                    style="max-width: 180px"
+                  />
+                </div>
+                <div class="w-full md:w-6/12 lg:mb-0 px-4">
+                  <img
+                    alt="bouldrova stienka"
+                    src="img/sponsor-psk.png"
+                    class="shadow-lg rounded max-w-full mx-auto opacity-80"
+                    style="max-width: 180px"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -298,12 +336,10 @@
     <footer class="relative bg-black text-white pt-8 pb-6">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px;"
+        style="height: 80px"
       >
         <svg>
-          <polygon
-            points="2560 0 2560 100 0 100"
-          ></polygon>
+          <polygon points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
       <div class="container mx-auto px-4">
@@ -313,13 +349,18 @@
             <h5 class="text-lg mt-2 mb-2">
               Extreme sport team Vysoké Tatry o. z.
             </h5>
-            <p>
-              Tatranská Lomnica 94
-            </p>
-            <p>
-              059 60 Vysoké Tatry
-            </p>
-            <iframe class="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.0115194393247!2d20.28559031556652!3d49.16238957931844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e23022d8cf735%3A0xb9d27040da17bc55!2sRock%20Caf%C3%A9%20Lezeck%C3%A1%20Stena!5e0!3m2!1ssk!2ssk!4v1651989075354!5m2!1ssk!2ssk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Tatranská Lomnica 94</p>
+            <p>059 60 Vysoké Tatry</p>
+            <iframe
+              class="mt-2"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.0115194393247!2d20.28559031556652!3d49.16238957931844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e23022d8cf735%3A0xb9d27040da17bc55!2sRock%20Caf%C3%A9%20Lezeck%C3%A1%20Stena!5e0!3m2!1ssk!2ssk!4v1651989075354!5m2!1ssk!2ssk"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
             <div class="mt-6">
               <a
                 class="bg-white text-primary-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -346,13 +387,13 @@
         >
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-sm text-gray-600 font-semibold py-1">
-              s láskou k horám 
+              s láskou k horám
               <a
-                href="https://kristianduda.github.io"
+                href="https://extropy.sk"
                 target="_blank"
                 class="text-gray-600 hover:text-primary-500"
-                >Kristian Duda</a
-              >.
+                >extropy.sk</a
+              >
             </div>
           </div>
         </div>
